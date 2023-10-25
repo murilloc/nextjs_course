@@ -8,7 +8,6 @@ export default class Contador extends Component {
             <>
                 <ClasseContador valorInicial={100}></ClasseContador>
                 <ClasseContador/>
-
             </>
         )
     }

@@ -1,4 +1,4 @@
- export default function mega(qtde = 7, numerosMega = []) {
+ function mega(qtde = 7, numerosMega = []) {
     if (qtde < 6 && qtde > 60) {
         throw new Error('Quantidade inválida!')
     }
@@ -14,5 +14,9 @@
         return mega(qtde, numerosMega)
     }
 
+}
+
+export {
+    mega
 }
 

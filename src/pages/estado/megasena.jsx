@@ -1,7 +1,7 @@
 import styles from '../../styles/Megasena.module.css'
 import Aposta from "@/components/Aposta";
 import {useEffect, useState} from "react";
-import mega from "@/functions/mega";
+import mega from "@/functions/mega.mjs";
 
 export default function Megasena() {
 
